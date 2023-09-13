@@ -17,7 +17,6 @@ Flutter로 웹툰 앱 만들기 - #3 UI CHALLENGE 강의를 기반으로 진행�
 ## 💪🏻 코드 챌린지
 
 1. `Transform.translate` 부분을 CurrencyCard 커스텀 위젯 안에다 담기
-2. `ClipPath` 위젯을 사용하여 우측 상단 모서리만 non-circular하도록 만들기
 
 ```dart
 class CurencyCard extends StatelessWidget {
@@ -74,6 +73,10 @@ class DiagonalClipper extends CustomClipper<Path> {
 }
 ```
 
+<br></br>
+
 완성된 결과는 아래와 같습니다.
 
-<img src="https://github.com/hardy716/nomadcoders_flutter_ui_challenge/assets/101140679/e0f6be76-492c-4f70-9d35-d98497edba4b" width="300" height="650" hspace="1"> 
+코드 챌린지 이외에도 자유롭게 UI를 변경해보았습니다.
+
+<img src="https://github.com/hardy716/nomadcoders_flutter_ui_challenge/assets/101140679/e0f6be76-492c-4f70-9d35-d98497edba4b" width="600" height="1300" hspace="1"> 
